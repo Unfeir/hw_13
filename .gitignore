@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .DS_Store
-postgres-data/
+#postgres-data/
 # C extensions
 *.so
 
