@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "hw-13"
+version = "0.1.0"
+description = ""
+authors = ["Anton Holovin <54354764+Unfeir@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw_13"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.1"
+alembic = "^1.10.3"
+psycopg2-binary = "^2.9.6"
+uvicorn = {extras = ["basic"], version = "^0.21.1"}
+redis = "^4.5.4"
+sqlalchemy = "^2.0.10"
+jinja2 = "^3.1.2"
+python-multipart = "^0.0.6"
+cloudinary = "^1.32.0"
+libgravatar = "^1.0.4"
+pydantic = {extras = ["dotenv"], version = "^1.10.7"}
+passlib = "^1.7.4"
+fastapi-mail = "^1.2.7"
+python-jose = "^3.3.0"
+pydentic = {extras = ["email"], version = "^0.0.1.dev3"}
+bcrypt = "^4.0.1"
+fastapi-limiter = "^0.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
